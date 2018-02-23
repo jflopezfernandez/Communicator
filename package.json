@@ -1,0 +1,28 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Bandwidth application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo 'no tests yet!'",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "Bandwith",
+    "network",
+    "sms"
+  ],
+  "author": "Jose Fernando Lopez Fernandez",
+  "private": true,
+  "bugs": {
+    "url": "localhost.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "grunt-cli": "^1.2.0",
+    "harp": "^0.25.0",
+    "node-bandwidth": "^2.6.2"
+  }
+}
